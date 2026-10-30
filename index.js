@@ -6,6 +6,6 @@ background_changer.onclick = function() {
         html_body.style.backgroundColor = rgb(93, 120, 209);
     }
     else {
-        html_body.style.backgroundColor ==  rgb(44, 107, 31)
+        html_body.style.backgroundColor ==  rgb(44, 107, 31);
     }
 }
