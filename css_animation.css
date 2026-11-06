@@ -6,3 +6,24 @@
     left: 75 px;
     top: 75 px;
 }
+@keyframes jello {
+0%{
+    transform:rotate(0deg);
+}
+25%{
+    transform:rotate(180deg);
+}
+50%{
+    width:300px;
+    height: 300px;
+    transform:rotate(0deg);
+    left:575px;
+}
+75%{
+    transform:rotate(180deg);
+}
+100%{
+    left:75 px;
+    transform:rotate(0deg);
+}
+}
