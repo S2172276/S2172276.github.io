@@ -5,6 +5,9 @@
     position:absolute;
     left: 75 px;
     top: 75 px;
+    animation-name: jello;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
 }
 @keyframes jello {
 0%{
