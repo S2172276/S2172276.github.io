@@ -14,8 +14,8 @@
 }
 
 #bounce_environment {
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
     position: relative;
 }
 #circle1 {
@@ -78,13 +78,13 @@
 }
 }
 @keyframes bounce{
-25%{
+0%{
     transform:translateY(0px);
 }
 50%{
     transform:translateY(100px);
 }
-75%{
+100%{
     transform:translateY(0px);
 }
 
