@@ -1,11 +1,42 @@
+#jello_environment {
+    position:relative;
+}
 #square {
     background-color: orange;
     width: 150px;
     height: 150px;
     position:absolute;
-    left: 75 px;
-    top: 75 px;
+    left: 75px;
+    top: 75px;
     animation-name: jello;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+#bounce_environment {
+    position: relative;
+}
+#circle1 {
+    background-color: rgba(0, 255, 229, 0.768);
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    left: 75px;
+    top: 75px;
+    border-radius: 50%;
+    animation-name: bounce;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#circle2 {
+    background-color: rgba(246, 255, 0, 0.767);
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    left: 75px;
+    top: 75px;
+    border-radius: 50%;
+    animation-name: bounce;
     animation-duration: 6s;
     animation-iteration-count: infinite;
 }
@@ -15,7 +46,7 @@
 }
 25%{
     transform:rotate(180deg);
-    left: 325 px;
+    left: 325px;
 }
 50%{
     width:300px;
@@ -25,10 +56,13 @@
 }
 75%{
     transform:rotate(180deg);
-    left: 325 px;
+    left: 325px;
 }
 100%{
-    left:75 px;
+    left:75px;
     transform:rotate(0deg);
 }
+}
+@keyframes bounce{
+
 }
