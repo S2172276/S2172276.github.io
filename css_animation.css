@@ -1,4 +1,6 @@
 #jello_environment {
+    width: 450px;
+    height: 450px;
     position:relative;
 }
 #square {
@@ -14,8 +16,8 @@
 }
 
 #bounce_environment {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     position: relative;
 }
 #circle1 {
