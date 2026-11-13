@@ -14,6 +14,8 @@
 }
 
 #bounce_environment {
+    width: 250px;
+    height: 250px;
     position: relative;
 }
 #circle1 {
@@ -30,6 +32,18 @@
 }
 #circle2 {
     background-color: rgba(246, 255, 0, 0.767);
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    left: 75px;
+    top: 75px;
+    border-radius: 50%;
+    animation-name: bounce;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#circle3 {
+    background-color: rgba(201, 61, 214, 0.701);
     width: 100px;
     height: 100px;
     position:absolute;
